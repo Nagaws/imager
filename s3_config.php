@@ -1,6 +1,6 @@
 <?php
 // Bucket Name
-$bucket="pratap14321";
+$bucket="s314321";
 if (!class_exists('S3'))require_once('S3.php');
 			
 //AWS access info

@@ -4,8 +4,8 @@ $bucket="s314321";
 if (!class_exists('S3'))require_once('S3.php');
 			
 //AWS access info
-if (!defined('awsAccessKey')) define('awsAccessKey', 'AKIAJXZ37FCIFGB2J6IQ');
-if (!defined('awsSecretKey')) define('awsSecretKey', 'wdhOP8LdSyi5kqVFmyGZjpr+ip4+sPuR+LOB4BX+');
+if (!defined('awsAccessKey')) define('awsAccessKey', 'Your Key');
+if (!defined('awsSecretKey')) define('awsSecretKey', 'your secret');
 			
 //instantiate the class
 $s3 = new S3(awsAccessKey, awsSecretKey);
